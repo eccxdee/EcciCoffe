@@ -56,12 +56,13 @@ section{
 }
 
 section h2 {
-  background-color: #fed7aa;
+  background-color: #8a5123;
   padding: 8px 16px;
   text-align: center;
 
   margin-bottom: 24px;
   font-size: 18px;
+  color: whitesmoke;
 }
 
 ul li{
