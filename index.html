@@ -1,184 +1,81 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
+body{
+  background-color: #fffad5;
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:opsz,wght@8..144,700&display=swap" rel="stylesheet">
+#area-login{
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+/*centralizando*/
 
+#login{
+  display: flex;
+  flex-direction: column;/*logo fica em logo coluna*/
+  align-items: center;
+  background-color: #462e1a;
+  border-radius: 10px;
+  width: 350px;
+  height: 320px;
+  padding: 35px;
+}
+/*largura e altura da caixa da divlogin*/
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcciCoffee</title>
+#login form {
+  display: flex;
+  width: 100%;
+  flex-direction: column; /*input abaixo do outro*/
+}
 
-    <link rel="stylesheet" href="./estilo.css">
-  </head>
-  <body>
-    <header>
-    <nav>
-      <h1>Ecci<span>Coffee</span></h1>
-      <p>aberto todos os dias. das 07h-20h</p>
-    </nav> 
-    </header>
+#login input{
+  margin-top: 10px;
+  background-color: #b98554;
+  padding-left: 10px;
+  border: none;
+  height: 45px;
+  outline: none;
+  border-radius: 8px;
+  color: whitesmoke;
+}
+/*espaçamento entre os inputs*/
+#login img{
+  margin-left: 20px;
+  width: 65px;
+  height: auto;
+}
+#login h1{
+  color: black;
+  margin: center;
+}
 
-    <section>
-      <h2>Café</h2>
-      <ul>
-        <li>
-          <div id="detalhes">
-            <h3>Broa de milho no pote</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
+h1 span{
+  color: #b98554;
+}
 
-          <strong id="preço">
-            R$4.55
-          </strong>
+input::placeholder{
+  color: whitesmoke;
+  font-size: 14px;
+}
 
-        </li>
+input#entrar{
+  display: block;
+  background-color: #8a5123;
+  font-size: 15px;
 
-        <li>
-          <div id="detalhes">
-            <h3>Maria-mole</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
+  font-weight: bold;
+  cursor: pointer;
+}
 
-          <strong id="preço">
-            R$4.55
-          </strong>
+p{
+  color: whitesmoke;
+  margin-bottom: 5px;
+}
 
-        </li>
-
-        <li>
-          <div id="detalhes">
-            <h3>Pão Doce</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-
-          <strong id="preço">
-            R$2.55
-          </strong>
-
-        </li>
-
-
-      </ul>
-    </section>
-
-    <section>
-      <h2>Bebidas</h2>
-      <ul>
-        <li>
-          <div id="detalhes">
-            <h3>Capuccino</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-
-          <strong id="preço">
-            R$11.10
-          </strong>
-
-        </li>
-
-        <li>
-          <div id="detalhes">
-            <h3>Chocolate quente</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-
-          <strong id="preço">
-            R$14.00
-          </strong>
-
-        </li>
-
-      </ul>
-    </section>
-
-<section>
-      <h2>Chás</h2>
-      <ul>
-        <li>
-          <div id="detalhes">
-            <h3>Erva-Doce</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-
-          <strong id="preço">
-            R$7.00
-          </strong>
-
-        </li>
-
-        <li>
-          <div id="detalhes">
-            <h3>Camomila</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-
-          <strong id="preço">
-            R$7.00
-          </strong>
-
-        </li>
-
-        <li>
-          <div id="detalhes">
-            <h3>Morango</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-
-          <strong id="preço">
-            R$7.00
-          </strong>
-
-        </li>
-
-        <li>
-          <div id="detalhes">
-            <h3>Chá Preto</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-
-          <strong id="preço">
-            R$7.00
-          </strong>
-
-        </li>
-
-        <li>
-          <div id="detalhes">
-            <h3>Chá Verde</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-          </div>
-
-          <strong id="preço">
-            R$7.00
-          </strong>
-
-        </li>
-
-      </ul>
-    </section>
-
-  </body>
-</html>
+a{
+color: #995000;
+text-decoration: none;
+margin-left: 5px;
+}
