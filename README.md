@@ -1,5 +1,15 @@
-# EcciCoffe
-<div> Projeto modelo de um menu de cafeteria apenas com HTMl, CSS e versionamento no github.<div>
+# EcciCoffee-Login
 
-## como funciona
-o menu auxilia o cliente a escolher o tipo de "café" ou acompanhamento que desejar, com suas respectivas tabelas de preço e descrição. 
+### Acesse [https://eccicoffee-login.netlify.app/]
+
+### modelo tela de login para cafeteria ☕
+
+<div align= center>
+<img src="https://user-images.githubusercontent.com/75847604/185936242-b73957bf-1d21-4790-81e8-9c9c11b32e73.png" width=600 />
+</div>
+
+## projeto estático
+
+- HTML & CSS
+
+## funcionalidade
