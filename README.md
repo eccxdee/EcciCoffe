@@ -17,5 +17,3 @@
 ## projeto estático
 
 - HTML & CSS
-
-## funcionalidade
