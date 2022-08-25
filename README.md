@@ -18,5 +18,5 @@
 
 - HTML & CSS
 
-##Funcionalidade
+## Funcionalidade
 - cadastro de clientes para um possível incremento de serviço delivery
