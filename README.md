@@ -18,4 +18,5 @@
 
 - HTML & CSS
 
-## cadastro de clientes para um possível incremento de serviço delivery
+##Funcionalidade
+- cadastro de clientes para um possível incremento de serviço delivery
