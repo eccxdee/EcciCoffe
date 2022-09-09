@@ -18,5 +18,3 @@
 
 - `HTML` & `CSS`
 
-## Funcionalidade
-
