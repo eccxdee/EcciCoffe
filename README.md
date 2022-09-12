@@ -1,6 +1,6 @@
 # EcciCoffee
 
-### Acesse [https://eccicoffee-login.netlify.app/]
+### Acesse [https://eccicoffee.netlify.app/]
 
 ### modelo menu cafeteria ☕
 
